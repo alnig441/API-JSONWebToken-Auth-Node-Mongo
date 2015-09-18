@@ -1,3 +1,21 @@
+Hello Delta, and welcome to your final peer project!
+
+This project requires you to be able to follow online tutorials, fork repositories, and to be able to use someone else's code as a starting point. Build the following application, and use this tutorial as a starting point: https://github.com/NukaPunk/API-JSONWebToken-Auth-Node-Mongo
+
+You should fork the repository as a starting point into a personal repository. Give it whatever name you want. Make sure you know what's happening underneath if you do so. There are parts of the code you will need in order to keep JWT working!
+
+Use jQuery and Bootstrap to create an application that allows users to register, log in/out, create information using a form, and view their own information. This information should be stored in their user in the MongoDB.
+
+Hint: You'll need to add a new property to the user schema that is an array of objects.
+
+This should be a Single Page Application. You may use jQuery along with HTML objects, HTML templates, Handlebars, or any other method to do this. Pick one and stick to it. Just no page refreshing!
+
+The information that should be stored is a list of "Networking Events". Each networking event should have a title, description, location, date and time.
+
+There should also be a "remember me" option when logging in, that stores the JWT in LocalStorage. When the user signs out, make sure you delete this.
+
+(Remember, in a production environment this application should be on HTTPS to avoid giving away your tokens and password. Never transmit this type of data over HTTP!)
+
 # API-JSONWebToken-Auth-Node-Mongo
 A simple Node.js API. Users are created and stored in a local database using Mongo, and they are authenticated using JSON Web Tokens.
 
